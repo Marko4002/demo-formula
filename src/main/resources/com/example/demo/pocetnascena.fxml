@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.FormulaController">
+   <children>
+      <ImageView fx:id="bgi" fitHeight="409.0" fitWidth="1005.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="22.0" layoutY="166.0" prefHeight="70.0" prefWidth="302.0" text="Staze" textFill="WHITE">
+         <font>
+            <Font name="Corbel" size="47.0" />
+         </font>
+      </Label>
+      <Label layoutX="833.0" layoutY="168.0" prefHeight="70.0" prefWidth="302.0" text="Timovi" textFill="WHITE">
+         <font>
+            <Font name="Corbel" size="47.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="401.0" prefWidth="1005.0">
+         <children>
+            <Hyperlink onAction="#scenaStaze" prefHeight="401.0" prefWidth="500.0" textFill="WHITE" />
+            <Hyperlink onAction="#scenaTimovi" prefHeight="401.0" prefWidth="500.0" textFill="WHITE" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

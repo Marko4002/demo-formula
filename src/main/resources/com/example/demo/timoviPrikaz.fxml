@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="567.0" prefWidth="1170.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.timoviPrikaz">
+   <children>
+      <ListView layoutX="25.0" layoutY="25.0" prefHeight="515.0" prefWidth="262.0" />
+      <ImageView fitHeight="256.0" fitWidth="262.0" layoutX="310.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="256.0" fitWidth="262.0" layoutX="873.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="256.0" fitWidth="753.0" layoutX="383.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="585.0" layoutY="33.0" prefHeight="256.0" prefWidth="129.0" />
+      <Label layoutX="730.0" layoutY="33.0" prefHeight="256.0" prefWidth="129.0" />
+   </children>
+</AnchorPane>
